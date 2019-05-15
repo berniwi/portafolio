@@ -28,6 +28,18 @@ header{
   padding-bottom: 100px;
 }
 
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #373A3C;
+}
+
+.carousel-indicators{
+  bottom: -50px;
+}
+
+
 footer a{
   color: black;
 }
