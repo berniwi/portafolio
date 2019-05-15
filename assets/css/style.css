@@ -13,12 +13,19 @@ footer, nav{
   background-color: var(--peach);
 }
 
-
-
 header{
   background-image: url("../img/mifoto.jpg");
   background-size: cover;
   height: 500px;
+}
+
+h1 hr{
+ background-color: white;
+}
+
+header{
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 footer a{
@@ -30,18 +37,14 @@ footer a{
 }
 
 
+
+
+
 .shadow{
   font-family: 'Shadows Into Light', cursive;
 }
 
-h1 hr{
- background-color: white;
-}
 
-header{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 .tam25{
  font-size: 25px;
