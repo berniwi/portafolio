@@ -13,7 +13,7 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
    <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Lato:400,700|Shadows+Into+Light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Maiden+Orange" rel="stylesheet">
 
    <!--Font Awesome-->
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -27,7 +27,7 @@
 
   <!--navegacion-->
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">Berni</a>
+    <a class="navbar-brand shadow" href="#">Berni</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,16 +35,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre mi</a>
+          <a class="nav-link" href="#sobre_mi">Sobre mi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experiencia</a>
+          <a class="nav-link" href="#experiencia">Experiencia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Trabajos</a>
+          <a class="nav-link" href="#trabajos">Trabajos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -55,19 +55,19 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="text-white text-center mt-5">Yo soy <br><hr> Bernardita Emilfork</h1>
+          <h1 class="shadow text-white text-center">Yo soy <br><hr> Bernardita Emilfork</h1>
         </div>
       </div>
     </div>
   </header>
 
   <!--Sobre mi-->
-  <section>
-
-    <div class="container text-center d-none d-sm-block d-sm-none d-md-block">
+  <section id="sobre_mi">
+    <div class="container d-none d-sm-block d-sm-none d-md-block">
       <div class="row">
         <div class="col-12 tam25">
           Mi nombre es Bernardita Emilfork, soy socióloga de la Universidad Católica y estoy entrando al mundo del diseño UX.
+          Actualmente estoy cursando el curso de Diseño UX/UI en la academia Desafío Latam.
         </div>
       </div>
 
@@ -77,44 +77,81 @@
         </div>
       </div>
 
-      <div class="row ">
-
-        <div class="col-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <div class="row text-justify">
+        <div class="col-4">
+          Salí del colegio, me iba muy bien, y me fue muy bien en la PSU, así que decidí entrar a estudiar ingeniería. El único ramo que me encantó de mi paso por ingeniería fue introducción a la programación, incluso fui ayudante y pensé dedicarme al mundo TI. Luego de cuatro años - que disfruté gracias a la participación en los centros de alumnos, trabajos, etc., más que por lo que estaba estudiando - me di cuenta de que mi vocación no iba por ahí, y me cambié a sociología.
         </div>
-
-        <div class="col-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="col-4">
+          Saqué la carrera, salí al mundo laboral, y seguía sin encontrar algo que realmente me gustara hacer, hasta que una amiga me presentó el mundo del Diseño UX. Hice un curso online que me fascino, me puse a investigar y terminé en la Academia Desafío Latam, donde estoy actualmente haciendo el curso de diseño UX. Te invito a pasar por la página y ver más de mí y de mi trabajo.
         </div>
-
       </div>
     </div>
   </section>
 
-  <!--experiencia-->
-  <section class="experiencia my-5">
-    <div class="container text-center">
+
+  <!--Experiencia-->
+  <section id="experiencia" class="text-center">
+    <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2>Mi Experiencia</h2>
+          <h2 class="shadow">Mi Experiencia</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <i class="far fa-lightbulb fa-7x"></i>
-        </div>
-        <div class="col-sm-6">
-          <i class="fas fa-truck-moving fa-7x"></i>
+      <div class="row my-5">
+        <div class="col-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <i class="fas fa-truck-moving fa-7x" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></i>
+                    <h3>Subsecretaría de Transporte</h3>
+                    <p>2018 - 2019</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <i class="far fa-lightbulb fa-7x" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></i>
+                    <h3>Brinca</h3>
+                    <p>2018 - 2018</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <i class="far fa-lightbulb fa-7x" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></i>
+                    <h3>Arzobispado de Santiago</h3>
+                    <p>2017 - 2018</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <i class="fas fa-truck-moving fa-7x" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></i>
+                    <h3>Sociología UC</h3>
+                    <p>2013 - 2017</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+  </div>
+</section>
+
 
   <!--Trabajos-->
-  <section class="trabajos mb-5 py-5">
+  <section class="trabajos" id="trabajos">
     <div class="container">
-      <div class="row mb-5">
-        <div class="card col-xs-12 col-sm-3" style="width: 18rem;">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Mis trabajos</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card col-xs-12 col-sm-4">
           <img src="assets/img/suricata.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -122,7 +159,7 @@
           </div>
         </div>
 
-        <div class="card col-xs-12 col-sm-3" style="width: 18rem;">
+        <div class="card col-xs-12 col-sm-4">
           <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -130,7 +167,7 @@
           </div>
         </div>
 
-        <div class="card col-xs-12 col-sm-3" style="width: 18rem;">
+        <div class="card col-xs-12 col-sm-4" >
           <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -141,7 +178,7 @@
 
 
       <div class="row">
-        <div class="card col-xs-12 col-sm-3" style="width: 18rem;">
+        <div class="card col-xs-12 col-sm-4" >
           <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -149,7 +186,7 @@
           </div>
         </div>
 
-        <div class="card col-xs-12 col-sm-3" style="width: 18rem;">
+        <div class="card col-xs-12 col-sm-4" >
           <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -157,7 +194,7 @@
           </div>
         </div>
 
-        <div class="card col-xs-12 col-sm-3" style="width: 18rem;">
+        <div class="card col-xs-12 col-sm-4">
           <img src="assets/img/dmark.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -171,25 +208,25 @@
 
   <!--Formulario-->
   <section>
+    <div class="container-fluid">
+      <div class="typeform-widget" data-url="https://bernarditaemilfork.typeform.com/to/IjJtbJ" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=IjJtbJ&utm_source=typeform.com-12109577-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+    </div>
   </section>
 
   <!--footer-->
-  <footer>
-    <div class="container-fluid mt-5">
-      <div class="container py-3 col-3">
+  <footer id="contacto">
+    <div class="container-fluid py-2 text-center">
+      <div class="container my-3">
         <div class="row">
-          <div class="col-3">
-            <a href="#" class="fab fa-linkedin fa-5x"></a>
-          </div>
-          <div class="col-3">
-            <a href="#" class="fab fa-facebook-square fa-5x"></a>
-          </div>
-          <div class="col-3">
-            <a href="#" class="fab fa-github-square fa-5x"></a>
-          </div>
-          <div class="col-3">
-            <a href="#" class="fab fa-twitter-square fa-5x"></a>
-          </div>
+            <div class="col-sm-6">
+              <h3 class="shadow">Berni</h3>
+            </div>
+            <div class="col-sm-6">
+              <a href="https://www.linkedin.com/in/bernardita-emilfork-83b81131/" target="_blank" class="fab fa-linkedin fa-3x"></a>
+              <a href="https://www.facebook.com/berni.emilfork" target="_blank" class="fab fa-facebook-square fa-3x"></a>
+              <a href="https://github.com/berniwi" target="_blank" class="fab fa-github-square fa-3x"></a>
+              <a href="https://twitter.com/bemilfork" target="_blank" class="fab fa-twitter-square fa-3x"></a>
+            </div>
         </div>
       </div>
     </div>
